@@ -1,0 +1,165 @@
+@font-face{
+    src: url(digital-7.ttf);
+    font-family: "Digital-7";
+}
+body{
+    background-color: rgba(0, 0, 0, 0.49);
+}
+.container{
+    margin: 150px auto;
+    padding: 100px 80px;
+    background-color: white;
+    width: 370px;
+    border: 1px solid silver;
+    
+    box-shadow: inset 1px 3px 3px 2px silver;
+}
+.play{
+    background-color: rgba(0, 0, 0, 0.79);
+    border: 1px solid grey;
+    box-shadow: inset 2px 1px 2px 1px grey;
+    padding:  18px;
+    margin:10px;
+    border-radius: 15px;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Digital-7";
+    
+}
+.hours{
+    margin-left: 40px !important;
+}
+.hour{
+    position: absolute;
+    top: 36%;
+    left: 33%;
+
+}
+.min{
+    position: absolute;
+    top: 42%;
+    left: 33%;
+}
+.sec{
+    position: absolute;
+    top: 48%;
+    left: 33%;
+}
+
+.playbtn{
+    border-radius: 50%;
+    /* padding: 7px; */
+    outline: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    display: block;
+   
+    
+}
+.fa{
+    color: black;
+    font-size: 13px !important;
+    margin: 5px;
+}
+.fa-play{
+    color: green;
+}
+.hour:hover{
+   
+    background-color: green;
+}
+.fa-play:hover , .fa-stop:hover , .fa-repeat:hover{
+    color: white;
+}
+.fa-stop{
+    color: red;
+}
+.min:hover{
+    
+    background-color: red;
+}
+.sec:hover{
+    background-color: black;
+}
+.fa-repeat{
+    font-size: 14px !important;
+}
+.dots{
+    font-size: 54px !important;
+    color: grey;
+    font-weight: bolder;
+   
+
+}
+@media only screen and  (max-width: 400px){
+    .hour{
+        position: absolute;
+        top: 36%;
+        left: 13%;
+    
+    }
+    .min{
+        position: absolute;
+        top: 42%;
+        left: 13%;
+    }
+    .sec{
+        position: absolute;
+        top: 48%;
+        left: 13%;
+    }
+} 
+@media only screen and  (max-width: 610px){
+    .hour{
+        position: absolute;
+        top: 36%;
+        left: 15%;
+    
+    }
+    .min{
+        position: absolute;
+        top: 42%;
+        left: 15%;
+    }
+    .sec{
+        position: absolute;
+        top: 48%;
+        left: 15%;
+    }
+} 
+@media only screen and  (max-width: 710px){
+    .hour{
+        position: absolute;
+        top: 36%;
+        left: 17%;
+    
+    }
+    .min{
+        position: absolute;
+        top: 42%;
+        left: 17%;
+    }
+    .sec{
+        position: absolute;
+        top: 48%;
+        left: 17%;
+    }
+}
+@media only screen and  (max-width: 876px){
+    .hour{
+        position: absolute;
+        top: 36%;
+        left: 23%;
+    
+    }
+    .min{
+        position: absolute;
+        top: 42%;
+        left: 23%;
+    }
+    .sec{
+        position: absolute;
+        top: 48%;
+        left: 23%;
+    }
+}

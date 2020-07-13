@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stowatch</title>
+    <link rel="icon" href="download.jpg" type="image/icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+       
+           
+  
+        <label class="play hours" id="hours" >00</label>
+        <span class="dots">:</span>
+        <label class="play" id="mins" >00</label>
+        <span class="dots">:</span>
+        <label class="play" id="secs" >00</label>
+        
+        <button type="button" class="playbtn hour" onclick="play()"  ><i class="fa fa-play" aria-hidden="true"></i></button>
+        <button type="button" class="playbtn min" onclick="stop()" ><i class="fa fa-stop" aria-hidden="true"></i></button>
+        <button type="button" class="playbtn sec" onclick="reset()" ><i class="fa fa-repeat" aria-hidden="true"></i></button>
+
+  
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
